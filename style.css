@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+}
+nav {
+  background-color: #039090;
+  color: #000000;
+  height: 120px;
+  font-family: 'Montserrat','san-serif';
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li:first-child {
+  margin-left: 0;
+}
+
+.navbar ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #ffffff;
+}
+
+
+body{
+    height: 100vh;/*Colocamos a altua em 100vh para o "body" ocupar 100% do tamanho da página*/
+    box-sizing: border-box;/*É usado para corrigir, quando elementos "filhos" ultrapassam o limite do elemento pai. Ex: uma imagem ultrapassa o tamanho do main*/
+    background-color: black;
+    color: #00ffff;
+}
+
+
+.fontebranca {
+    color: #ffffff;
+}
+
+.imgprogramador{
+    height: 35vh;
+}
+
+.apresentacao {
+    margin: 10% 15%;/*Espaçamento necessário das extremidades da tela, centralizando um pouco mais nosso conteudo*/
+    display: flex;/*O famoso "flexbox"(documentação completa.É uma nova tecnologia que serve para colocar nossos elementos em ordem como se fosse uma Linha ("row") onde os elementos se encaixam da esquerda para direita de acordo com a hieraquia pai/filho*/
+    align-items: center;/*Alinhar os itens de acordo com os alinhamentos deles próprios, por isso o ponto referencia dos alinhamentos foi a propria Imagem e os elemnetos ficaram centralizados de acordo com a imagem principal*/
+    justify-content: space-between;/*Serve para adcionar um pequeno espaço entre os elementos. Enquanto tiver espaço eles vao para um lado, caso houvesse um terceiro elemento, eles se encaixariam.*/
+}
+
+.apresentacao_conteudo {
+    
+    width:615px ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    
+}
+
+.apresentacao_conteudo_titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao_conteudo_texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_links {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap:32px;
+       
+}
+
+.apresentacao_links_subtitulo {
+    font-family: 'Krona One','san-serif';
+    font-weight: 400;
+    font-size: 24px;
+
+}
+ 
+.botao{
+   
+    /* background-color: #000000; COMENTAR: CTRL + K +C*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #00ffff;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21px 0;/*21 px pra cima e pra baixo e 0 para os lados*/
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botao:hover {
+  background-color: #272727;
+}
