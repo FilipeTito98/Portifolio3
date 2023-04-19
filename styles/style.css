@@ -74,7 +74,7 @@ body{
 
 
 .apresentacao {
-     padding: 5% 10%;/*Espaçamento necessário das extremidades da tela, centralizando um pouco mais nosso conteudo */
+    padding: 5% 10%;/*Espaçamento necessário das extremidades da tela, centralizando um pouco mais nosso conteudo */
     display: flex;/*O famoso "flexbox"(documentação completa.É uma nova tecnologia que serve para colocar nossos elementos em ordem como se fosse uma Linha ("row") onde os elementos se encaixam da esquerda para direita de acordo com a hieraquia pai/filho*/
     align-items: center;/*Alinhar os itens de acordo com os alinhamentos deles próprios, por isso o ponto referencia dos alinhamentos foi a propria Imagem e os elemnetos ficaram centralizados de acordo com a imagem principal*/
     justify-content: space-between;/*Serve para adcionar um pequeno espaço entre os elementos. Enquanto tiver espaço eles vao para um lado, caso houvesse um terceiro elemento, eles se encaixariam.*/
@@ -94,6 +94,18 @@ body{
     font-size: 28px;
     font-family: 'Krona One', sans-serif;
   }
+
+h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Krona One', sans-serif;
+}
+.curriculo_texto {
+  font-size: 15px;
+  font-family: 'Krona One', sans-serif;
+
+}
+
   
   
 
@@ -158,6 +170,10 @@ body{
 .botao:active {
   border-color: #55ff00;
   transition: color 0.3s ease;
+}
+
+.conteudo_curriculo {
+  padding: 15px 0px;
 }
 
 .rodape {
